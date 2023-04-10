@@ -1,0 +1,275 @@
+.body {
+  background-color: #131126;
+}
+/*start of the Navbar*/
+.navbar {
+  background-color: #131126;
+}
+.navLogo {
+  width: 150px;
+  height: 75px;
+}
+.navbar a {
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  margin-right: 30px;
+}
+.navbar .activePage {
+  background-color: rgba(255, 255, 255, 0.315);
+  border-radius: 13px;
+}
+.navbar .navBtns {
+  margin-top: 12px;
+  margin-right: 15px;
+}
+.navbar .navBtns a {
+  color: white;
+  margin-right: 12px;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 14px;
+  padding: 8px 25px 8px 25px;
+  transition: 0.3s;
+}
+.navbar .navBtns .loginBtn:hover {
+  background-color: #85519c;
+  border-color: #85519c;
+}
+.navbar .navBtns .signupBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+}
+.navbar .navBtns .signupBtn:hover {
+  background-color: #6f2f8b;
+}
+/*End of the Navbar*/
+
+/*Start of Hero Section*/
+.heading1 h1 {
+  font-family: "Abhaya Libre", serif;
+  color: white;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 68px;
+}
+.heading1 p {
+  font-family: "ABeeZee", sans-serif;
+  color: #cccccc;
+  font-size: 18px;
+  opacity: 0.65;
+}
+.searchBar {
+  border: 2px solid white;
+  border-radius: 18px;
+}
+.searchBar .SearchInput {
+  background-color: #131126;
+  border: none;
+}
+.searchBar .SearchInput:focus {
+  outline: none;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.63);
+  padding-left: 5px;
+}
+.searchBar .fa-magnifying-glass {
+  color: rgba(255, 255, 255, 0.684);
+}
+.searchBar .categoryBtn {
+  background-color: #131126;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.568);
+}
+.searchBar .searchBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.3s;
+}
+.searchBar .searchBtn:hover {
+  background-color: #6f2f8b;
+}
+/*End of Hero Section*/
+
+/*Start of Feature section*/
+.featuresParagraph {
+  font-family: "ABeeZee", sans-serif;
+}
+.featuresHeading {
+  font-family: "Abhaya Libre", serif;
+  margin-top: -15px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.Feature .Feature-h {
+  font-family: "Abhaya Libre", serif;
+  font-size: 48px;
+  line-height: 45px;
+  font-weight: 600;
+}
+.Feature .Feature-p {
+  opacity: 0.65;
+  color: #cccccc;
+  font-family: "ABeeZee", sans-serif;
+}
+.Feature .FeatureBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 14px;
+  padding: 11px 20px 11px 20px;
+  transition: 0.3s;
+}
+.Feature .FeatureBtn:hover {
+  background-color: #6f2f8b;
+}
+/*End of features section*/
+/*start of Mentors Section*/
+.mentorSection {
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 25px;
+}
+.mentorSection .mentorsHeading {
+  font-family: "Abhaya Libre", seriff;
+  font-weight: 700;
+  font-size: 40px;
+}
+.mentorSection .mentorParagraph {
+  font-size: 20px;
+  font-family: "ABeeZee", sans-serif;
+  color: #222527;
+}
+.mentorSection .mentorExploreBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 14px;
+  padding: 11px 20px 11px 20px;
+  transition: 0.3s;
+}
+.mentorSection .mentorExploreBtn:hover {
+  background-color: #6f2f8b;
+}
+
+.mentorsGrid .card .card-title {
+  font-family: "ABeeZee", sans-serif;
+  color: rgba(255, 255, 255, 0.747);
+  font-size: 18px;
+  margin-bottom: -5px;
+}
+.mentorsGrid .card .card-text {
+  font-family: "ABeeZee", sans-serif;
+  color: rgba(255, 255, 255, 0.658);
+  font-size: 16px;
+}
+.mentorsGrid .card {
+  border-radius: 26px;
+}
+.mentorsGrid .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+/*End of mentors section*/
+
+/*start of feedbacks section*/
+.feedback .FeedbackHeading {
+  font-family: "Abhaya Libre", seriff;
+  font-size: 40px;
+}
+.feedback .feedbackCard {
+  background-color: #4c3161;
+  border-radius: 17px;
+}
+.feedback .feedbackCard .feedbackParagraph {
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  font-size: 16px;
+  line-height: 34px;
+}
+.feedback .feedbackCard .cardLine {
+  color: white;
+  max-width: 75%;
+  border-top: 3px solid #ffffff;
+}
+.feedback .feedbackCard .feedbackProfile .profileDescription-h {
+  margin-bottom: -5px;
+  font-family: "Abhaya Libre", seriff;
+  font-weight: 700;
+  color: white;
+}
+.feedback .feedbackCard .feedbackProfile .profileDescription-p {
+  color: rgba(255, 255, 255, 0.567);
+  font-family: "ABeeZee", sans-serif;
+}
+/*End of Feedbacks Section*/
+
+/*Start of CTA Section*/
+.ctaSection {
+  background-color: #f6f6f619;
+  height: 65vh;
+}
+.ctaSection .ctaSectionInner {
+  background-color: #131126;
+  border-radius: 25px;
+  height: 48vh;
+}
+.ctaSectionInner .ctaContent .ctaHeading {
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  font-family: "Abhaya Libre", seriff;
+  font-weight: 700;
+}
+.ctaSectionInner .ctaContent .ctaParagraph {
+  color: #757575;
+  font-size: 17px;
+  font-family: "ABeeZee", sans-serif;
+}
+.ctaSectionInner .ctaContent .ctaBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 14px;
+  padding: 11px 20px 11px 20px;
+  transition: 0.3s;
+}
+.ctaSectionInner .ctaContent .ctaBtn:hover {
+  background-color: #6f2f8b;
+}
+/*End of CTA Section*/
+
+/*Start of Footer*/
+.footerLogo {
+  width: 150px;
+  height: 75px;
+}
+
+.copyRights .footerLine {
+  color: white;
+  max-width: 100%;
+  border-top: 1px solid #ffffff;
+}
+.footer ul li a:hover {
+  color: rgba(255, 255, 255, 0.59);
+}
+.footer a {
+  color: white;
+  transition: 0.3s;
+}
+/*End of Footer*/
