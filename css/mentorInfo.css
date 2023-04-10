@@ -1,0 +1,29 @@
+.mentorSection .bioTitle {
+  font-family: "Abhaya Libre", seriff;
+  font-weight: 700;
+}
+.mentorSection .bioDetails {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 15px;
+}
+.mentorSection .bookingBtn {
+  background-color: #85519c;
+  border: 1px solid #85519c;
+  color: white;
+  font-family: "ABeeZee", sans-serif;
+  text-decoration: none;
+  border-radius: 14px;
+  font-size: 14px;
+  padding: 11px 20px 11px 20px;
+  transition: 0.3s;
+}
+.mentorSection .bookingBtn:hover {
+  background-color: #6f2f8b;
+}
+.mentorSection .mentorsGrid .expertField {
+  text-decoration: none;
+  background-color: rgba(2, 170, 2, 0.319);
+  color: green;
+  border-radius: 10px;
+  padding: 7px 15px 7px 15px;
+}
