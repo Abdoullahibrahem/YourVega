@@ -1,0 +1,58 @@
+.roadmapsSection {
+  background-color: rgba(255, 255, 255, 0.884);
+  border-radius: 25px;
+}
+.roadmapsSection .roadmapsHeading {
+  font-family: "Abhaya Libre", seriff;
+  font-weight: 700;
+  font-size: 40px;
+}
+.roadmapsSection .roadmapsParagraph {
+  font-size: 20px;
+  font-family: "ABeeZee", sans-serif;
+  color: #222527;
+}
+.roadmapsGrid .cyber {
+  background-color: rgb(0, 110, 0);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .android {
+  background-color: rgb(115, 1, 1);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .ai {
+  background-color: rgb(74, 74, 74);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .uiux {
+  background-color: rgb(0, 53, 110);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .backend {
+  background-color: rgb(78, 0, 102);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .frontend {
+  background-color: rgb(182, 139, 28);
+  border-radius: 10px;
+  transition: 0.9s;
+}
+.roadmapsGrid .card .card-title {
+  font-family: "ABeeZee", sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: -5px;
+}
+.roadmapsGrid .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+}
+.roadmapsGrid .card .roadmapBtn {
+  padding: 12px;
+  border-radius: 0 0px 10px 10px;
+}
